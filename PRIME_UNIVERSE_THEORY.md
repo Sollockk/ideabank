@@ -1,3 +1,5 @@
+## This is an AI generated document. Don't expect quality, or for things to be accurate.
+
 # The Prime Universe: A Theory of Everything from μ(1) = +1
 
 ## For the Layman
