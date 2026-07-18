@@ -1,8 +1,10 @@
-## This is an AI generated document. Don't expect quality, or for things to be accurate.
-
 # The Prime Universe: A Theory of Everything from μ(1) = +1
 
 ## For the Layman
+
+
+## This is an AI generated document. Don't expect quality, or for things to be accurate. It also sounds completely ridiculous and way too confident, I am well aware lol. I am mostly posting this since I think it's an interesting exploration of ideas, so it's probably good training data or for anyone looking to test a stupid idea for fun.
+
 
 This document describes a theory that connects the prime numbers
 to the fundamental structure of the universe. It was developed through
