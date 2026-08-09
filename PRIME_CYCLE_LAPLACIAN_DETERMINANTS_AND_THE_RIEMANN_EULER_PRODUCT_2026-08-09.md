@@ -10,24 +10,24 @@ Represent each rational prime $p$ by a cycle graph $C_p$. For $p\ge 3$,
 $C_p$ is the ordinary simple cycle; for $p=2$, use the two-vertex
 multigraph with two parallel edges. The nonzero Laplacian determinant is
 
-\[
+$$
 \det{}'\Delta_{C_p}=p^2.
-\]
+$$
 
 It therefore defines the spectral determinant length
 
-\[
+$$
 L_p:=\frac12\log\det{}'\Delta_{C_p}=\log p.
-\]
+$$
 
 The dynamical product over one unoriented primitive channel is then
 
-\[
+$$
 \prod_p\left(1-e^{-sL_p}\right)^{-1}
 =\prod_p(1-p^{-s})^{-1}
 =\zeta(s),
 \qquad \Re s>1.
-\]
+$$
 
 The same cycle determinant occurs as the leading coefficient of the
 reciprocal Ihara zeta function at $u=1$. Bosonic occupation of the prime
@@ -56,7 +56,7 @@ The individual ingredients used below are standard:
 
 The contribution of this note is the exact synthesis
 
-\[
+$$
 \boxed{
 C_p
 \longmapsto
@@ -66,7 +66,7 @@ L_p=\tfrac12\log\det{}'\Delta_{C_p}=\log p
 \longmapsto
 \prod_p(1-e^{-sL_p})^{-1}=\zeta(s).
 }
-\]
+$$
 
 Thus, once $p$ is represented by $C_p$, the prime-logarithmic energy is
 supplied by a concrete finite graph operator rather than introduced as a
@@ -82,9 +82,9 @@ still lacks.
 For $n\ge 3$, let $C_n$ be the simple cycle on $n$ vertices. Its
 combinatorial Laplacian is
 
-\[
+$$
 \Delta_{C_n}=D-A.
-\]
+$$
 
 The notation $\det{}'\Delta$ means the product of all nonzero eigenvalues.
 
@@ -93,20 +93,20 @@ returning along its sole edge is immediate backtracking. To include the
 prime $2$ without hiding an exception, define $C_2^{\mathrm{multi}}$ to
 be the graph with two vertices and two parallel edges. Its Laplacian is
 
-\[
+$$
 \Delta_{C_2^{\mathrm{multi}}}
 =
 \begin{pmatrix}
 2&-2\\
 -2&2
 \end{pmatrix}.
-\]
+$$
 
 Its eigenvalues are $0$ and $4$, so
 
-\[
+$$
 \det{}'\Delta_{C_2^{\mathrm{multi}}}=4=2^2.
-\]
+$$
 
 It also has two oriented primitive nonbacktracking cycles of length two:
 travel out along one edge and return along the other, with the two possible
@@ -120,104 +120,104 @@ In the rest of the note, $C_2$ denotes this multigraph convention.
 
 For every integer $n\ge2$, with the convention above at $n=2$,
 
-\[
+$$
 \boxed{\det{}'\Delta_{C_n}=n^2.}
-\]
+$$
 
 ### Proof
 
 For $n\ge3$, the Laplacian eigenvalues are
 
-\[
+$$
 \lambda_k
 =2-2\cos\left(\frac{2\pi k}{n}\right)
 =4\sin^2\left(\frac{\pi k}{n}\right),
 \qquad k=0,\ldots,n-1.
-\]
+$$
 
 The zero mode is $k=0$. Hence
 
-\[
+$$
 \det{}'\Delta_{C_n}
 =\prod_{k=1}^{n-1}4\sin^2\left(\frac{\pi k}{n}\right).
-\]
+$$
 
 The classical identity
 
-\[
+$$
 \prod_{k=1}^{n-1}\sin\left(\frac{\pi k}{n}\right)
 =\frac{n}{2^{n-1}}
-\]
+$$
 
 gives
 
-\[
+$$
 \det{}'\Delta_{C_n}
 =4^{n-1}\frac{n^2}{2^{2n-2}}
 =n^2.
-\]
+$$
 
 Alternatively, $C_n$ has exactly $n$ spanning trees. The matrix-tree
 theorem states that
 
-\[
+$$
 \det{}'\Delta_G=|V(G)|\,\tau(G),
-\]
+$$
 
 where $\tau(G)$ is the number of spanning trees. Thus
 
-\[
+$$
 \det{}'\Delta_{C_n}=n\cdot n=n^2.
-\]
+$$
 
-The $n=2$ multigraph case was computed directly above. \(\square\)
+The $n=2$ multigraph case was computed directly above. $\square$
 
 ## 4. The reciprocal-Ihara special value
 
 The Ihara zeta function of a finite graph is the product over equivalence
 classes of primitive, tailless, nonbacktracking oriented closed paths:
 
-\[
+$$
 Z_G(u)=\prod_{[P]}(1-u^{\ell(P)})^{-1}.
-\]
+$$
 
 The cycle $C_n$ has exactly two primitive classes, corresponding to its two
 orientations. Therefore
 
-\[
+$$
 Z_{C_n}(u)=(1-u^n)^{-2}.
-\]
+$$
 
 ### Theorem 2
 
 For every $n\ge2$, with the same multigraph convention at $n=2$,
 
-\[
+$$
 \boxed{
 \lim_{u\to1}
 \frac{Z_{C_n}(u)^{-1}}{(1-u)^2}
 =n^2
 =\det{}'\Delta_{C_n}.
 }
-\]
+$$
 
 ### Proof
 
 Since
 
-\[
+$$
 1-u^n=(1-u)(1+u+\cdots+u^{n-1}),
-\]
+$$
 
 we have
 
-\[
+$$
 \frac{Z_{C_n}(u)^{-1}}{(1-u)^2}
 =\left(1+u+\cdots+u^{n-1}\right)^2.
-\]
+$$
 
 Taking $u\to1$ gives $n^2$, which equals the pseudodeterminant by
-Theorem 1. \(\square\)
+Theorem 1. $\square$
 
 This is a genuine ordinary-Ihara statement. Recent work also uses the
 $u=1$ special value of Ihara zeta functions to recover spanning-tree data
@@ -225,32 +225,32 @@ for several graph families [1].
 
 For a finite set of primes $\mathcal P$, let
 
-\[
+$$
 Q_{\mathcal P}=\prod_{p\in\mathcal P}p.
-\]
+$$
 
 The disjoint union of the corresponding cycles then satisfies
 
-\[
+$$
 \lim_{u\to1}
 (1-u)^{-2|\mathcal P|}
 \prod_{p\in\mathcal P}Z_{C_p}(u)^{-1}
 =Q_{\mathcal P}^2.
-\]
+$$
 
 ## 5. Determinant length and the Riemann Euler product
 
 Ordinary Ihara zeta uses combinatorial path length. If $u=e^{-s}$, then
 
-\[
+$$
 Z_{C_p}(e^{-s})=(1-e^{-sp})^{-2}.
-\]
+$$
 
 This is **not** a Riemann Euler factor. In particular,
 
-\[
+$$
 e^{-sp}\ne p^{-s}.
-\]
+$$
 
 The cycle Laplacian supplies a different, spectral quantity.
 
@@ -258,35 +258,35 @@ The cycle Laplacian supplies a different, spectral quantity.
 
 Define
 
-\[
+$$
 L_n
 :=\frac12\log\det{}'\Delta_{C_n}.
-\]
+$$
 
 Theorem 1 implies
 
-\[
+$$
 L_n=\log n.
-\]
+$$
 
 This is the logarithm of the inverse Gaussian weight of the relative cycle
 modes:
 
-\[
+$$
 \left(\det{}'\Delta_{C_n}\right)^{-1/2}
 =e^{-L_n}
 =\frac1n.
-\]
+$$
 
 ### Definition 2: determinant-length dynamical product
 
 Identify orientation reversal and assign one primitive channel to each
 prime. Define
 
-\[
+$$
 \mathfrak Z_{\det}(s)
 :=\prod_p\left(1-e^{-sL_p}\right)^{-1}.
-\]
+$$
 
 This is a new product constructed from the cycle determinant lengths. It is
 not the ordinary Ihara zeta function of the disjoint union.
@@ -295,29 +295,29 @@ not the ordinary Ihara zeta function of the disjoint union.
 
 For $\Re s>1$,
 
-\[
+$$
 \boxed{\mathfrak Z_{\det}(s)=\zeta(s).}
-\]
+$$
 
 ### Proof
 
 Theorem 1 gives
 
-\[
+$$
 e^{-sL_p}
 =\exp\left(-\frac{s}{2}\log p^2\right)
 =p^{-s}.
-\]
+$$
 
 Consequently
 
-\[
+$$
 \mathfrak Z_{\det}(s)
 =\prod_p(1-p^{-s})^{-1}
 =\zeta(s)
-\]
+$$
 
-in the half-plane where Euler's product converges absolutely. \(\square\)
+in the half-plane where Euler's product converges absolutely. $\square$
 
 If both orientations are retained as independent channels, the result is
 $\zeta(s)^2$. One copy of $\zeta$ therefore corresponds to identifying
@@ -327,54 +327,54 @@ orientation reversal or choosing one orientation.
 
 Introduce a Euclidean time unit $\tau_0$ and its conjugate energy unit
 
-\[
+$$
 \varepsilon_0:=\frac{\hbar}{\tau_0}.
-\]
+$$
 
 Assign to the prime cycle the energy
 
-\[
+$$
 E_p:=\varepsilon_0L_p=\varepsilon_0\log p.
-\]
+$$
 
 For Euclidean duration $\tau=s\tau_0$, its action and propagation weight
 are
 
-\[
+$$
 \frac{S_{E,p}}{\hbar}
 =\frac{E_p\tau}{\hbar}
 =s\log p,
-\]
+$$
 
 and
 
-\[
+$$
 e^{-S_{E,p}/\hbar}=p^{-s}.
-\]
+$$
 
 At temperature $T$, Euclidean time has period
 
-\[
+$$
 \tau=\hbar\beta=\frac{\hbar}{k_BT},
-\]
+$$
 
 so
 
-\[
+$$
 s=\frac{\tau}{\tau_0}
 =\beta\varepsilon_0
 =\frac{\varepsilon_0}{k_BT}.
-\]
+$$
 
 The defensible interpretation is therefore
 
-\[
+$$
 \boxed{
 \text{energy is conjugate to time},\qquad
 \text{action is time-integrated energy},\qquad
 \text{inverse temperature is Euclidean time divided by }\hbar.
 }
-\]
+$$
 
 Energy and time are not the same dimensionful quantity. Their product,
 divided by $\hbar$, is the dimensionless exponent controlling the
@@ -384,34 +384,34 @@ Euclidean weight.
 
 Give every prime a bosonic occupation number
 
-\[
+$$
 N_p\in\{0,1,2,\ldots\}
-\]
+$$
 
 and define
 
-\[
+$$
 H_B=\varepsilon_0\sum_p(\log p)N_p.
-\]
+$$
 
 A finite occupation vector corresponds by unique factorization to exactly
 one positive integer
 
-\[
+$$
 n=\prod_pp^{N_p}.
-\]
+$$
 
 Its energy is
 
-\[
+$$
 E_n
 =\varepsilon_0\sum_pN_p\log p
 =\varepsilon_0\log n.
-\]
+$$
 
 It follows that
 
-\[
+$$
 \begin{aligned}
 \operatorname{Tr}e^{-sH_B/\varepsilon_0}
 &=\prod_p\sum_{m=0}^{\infty}p^{-sm}\\
@@ -420,7 +420,7 @@ It follows that
 &=\zeta(s),
 \qquad \Re s>1.
 \end{aligned}
-\]
+$$
 
 This is the standard bosonic Riemann-gas construction [2]. The additional
 finite-operator observation here is that each prime-logarithmic oscillator
@@ -430,13 +430,13 @@ energy is the half-logarithm of a cycle Laplacian pseudodeterminant.
 
 Now impose fermionic occupation
 
-\[
+$$
 F_p\in\{0,1\}.
-\]
+$$
 
 In the graded trace, the occupied state contributes a minus sign. Hence
 
-\[
+$$
 \begin{aligned}
 \operatorname{Str}e^{-sH_F/\varepsilon_0}
 &=\prod_p(1-p^{-s})\\
@@ -444,11 +444,11 @@ In the graded trace, the occupied state contributes a minus sign. Hence
 &=\frac1{\zeta(s)},
 \qquad \Re s>1.
 \end{aligned}
-\]
+$$
 
 This gives the exact dictionary
 
-\[
+$$
 \boxed{
 \text{squarefree integer}
 \longleftrightarrow
@@ -458,7 +458,7 @@ This gives the exact dictionary
 \longleftrightarrow
 \text{fermion parity}.
 }
-\]
+$$
 
 The state with no occupied prime channels corresponds to $n=1$ and has
 even parity, giving $\mu(1)=+1$.
@@ -467,34 +467,34 @@ even parity, giving $\mu(1)=+1$.
 
 For real $s>1$, define
 
-\[
+$$
 |\operatorname{TFD}(s)\rangle
 =\frac1{\sqrt{\zeta(s)}}
 \sum_{n\ge1}n^{-s/2}|n\rangle_L|n\rangle_R.
-\]
+$$
 
 The two copies carry equal energy, so
 
-\[
+$$
 (H_L-H_R)|\operatorname{TFD}(s)\rangle=0.
-\]
+$$
 
 In general,
 
-\[
+$$
 (H_L+H_R)|\operatorname{TFD}(s)\rangle\ne0.
-\]
+$$
 
 Thus the state has null **relative** time translation, not zero total
 energy.
 
 Its normalization is also a sharp obstruction:
 
-\[
+$$
 \|\operatorname{TFD}(s)\|^2
 =\sum_{n\ge1}n^{-s}
 =\zeta(s),
-\]
+$$
 
 which converges for real $s>1$. At $s=1/2$, the candidate state is not a
 Hilbert-space vector. Zeta as a partition function is therefore not a
@@ -505,19 +505,19 @@ eigenvalues of $H_B$.
 
 Logarithmically differentiating Theorem 3 in $\Re s>1$ gives
 
-\[
+$$
 \begin{aligned}
 -\frac{\zeta'(s)}{\zeta(s)}
 &=\sum_p\frac{\log p}{p^s-1}\\
 &=\sum_p\sum_{r\ge1}(\log p)e^{-sr\log p}\\
 &=\sum_{n\ge1}\frac{\Lambda(n)}{n^s}.
 \end{aligned}
-\]
+$$
 
 The determinant-cycle data consequently have the standard primitive-orbit
 form
 
-\[
+$$
 \boxed{
 \text{primitive length}=\log p,
 \quad
@@ -525,13 +525,13 @@ form
 \quad
 \text{weight}=\log p.
 }
-\]
+$$
 
 Formally setting $s=1/2+it$ produces the oscillatory term
 
-\[
+$$
 $(\log p)p^{-r/2}e^{-itr\log p}$,
-\]
+$$
 
 which is the prime-power phase structure in explicit formulas. This
 substitution is not a proof step: the derivation above holds in
@@ -542,39 +542,39 @@ continuation and distributional regularization.
 
 Let
 
-\[
+$$
 \mathcal P=\{p:5\le p\le157\}.
-\]
+$$
 
 There are $35$ primes in this set, and
 
-\[
+$$
 Q=\prod_{p\in\mathcal P}p
 =5895861165619582473439294514658624035342928441314996237071645.
-\]
+$$
 
 The direct sum of their cycle Laplacians satisfies
 
-\[
+$$
 \det{}'\left(\bigoplus_{p\in\mathcal P}\Delta_{C_p}\right)
 =Q^2.
-\]
+$$
 
 Its normalized Gaussian relative-mode factor is
 
-\[
+$$
 \left[
 \det{}'\left(\bigoplus_{p\in\mathcal P}\Delta_{C_p}\right)
 \right]^{-1/2}
 =Q^{-1}.
-\]
+$$
 
 Squaring the amplitude, or using two identical Gaussian copies, gives
 
-\[
+$$
 Q^{-2}
 =2.876772399835876\times10^{-122}.
-\]
+$$
 
 This number is an exact consequence of the declared finite graph model. No
 physical or cosmological interpretation of it follows from the determinant
@@ -585,15 +585,15 @@ identity alone.
 Weighted knot-diagram walks can realize Alexander-type invariants as
 Ihara-type zeta functions [3]. For the trefoil,
 
-\[
+$$
 \Delta_{3_1}(t)=t^2-t+1,
-\]
+$$
 
 so
 
-\[
+$$
 \Delta_{3_1}(-m)=m^2+m+1=\Phi_3(m).
-\]
+$$
 
 This is an exact common cyclotomic polynomial, but it does not identify a
 cycle graph with a trefoil knot.
@@ -601,16 +601,16 @@ cycle graph with a trefoil knot.
 A more strategic lesson comes from connected sum. Alexander polynomials
 multiply:
 
-\[
+$$
 \Delta_{K\#J}(t)=\Delta_K(t)\Delta_J(t).
-\]
+$$
 
 Nevertheless, explicit knots are now known for which unknotting number is
 strictly subadditive:
 
-\[
-u(K\#J)<u(K)+u(J) [4].
-\]
+$$
+u(K\#J)\lt u(K)+u(J) [4].
+$$
 
 Thus an additive log-determinant does not, by itself, determine a global
 minimum-complexity operation. Cross-component moves can lower the optimum
@@ -625,15 +625,15 @@ For a connected $(q+1)$-regular graph with $q>1$, the Ramanujan condition
 is equivalent to a graph-zeta analogue of RH in which nontrivial Ihara poles
 lie on
 
-\[
+$$
 |u|=q^{-1/2} [5].
-\]
+$$
 
 A cycle is $2$-regular, so $q=1$. The critical circle degenerates to
 
-\[
+$$
 |u|=1,
-\]
+$$
 
 and the usual parameterization $u=q^{-s}$ becomes $u=1$ for every
 $s$. It cannot select $\Re s=1/2$.
@@ -647,15 +647,15 @@ therefore do not imply RH for this construction.
 
 The operator
 
-\[
+$$
 H|n\rangle=\varepsilon_0\log n\,|n\rangle
-\]
+$$
 
 on $\ell^2(\mathbb N)$ is self-adjoint on its natural domain, and
 
-\[
+$$
 \operatorname{Tr}e^{-sH/\varepsilon_0}=\zeta(s)
-\]
+$$
 
 for real $s>1$. It is not a Hilbert--Pólya operator:
 
@@ -700,10 +700,10 @@ space and prove all of the following:
 6. **Secular identity.** There is an entire nowhere-zero function $E(t)$
    such that
 
-   \[
+   $$
    \det_{\mathrm{rel}}(D-t)
    =E(t)\,\xi\left(\frac12+it\right).
-   \]
+   $$
 
 If such an identity were proved for self-adjoint $D$, all zeros of the
 right-hand side would occur at real spectral parameters $t$, and RH would
@@ -731,12 +731,12 @@ cycle identities.
 
 The exact result is modest but structurally clean:
 
-\[
+$$
 \boxed{
 \text{prime cycles provide finite operators whose one-loop determinant
 lengths are precisely the Riemann primitive lengths }\log p.
 }
-\]
+$$
 
 This construction simultaneously explains the Euler factors, the
 prime-power repetitions in $-\zeta'/\zeta$, the bosonic integer spectrum,
