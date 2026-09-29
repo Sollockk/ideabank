@@ -1,0 +1,384 @@
+{
+  "status": "all_checks_passed",
+  "scope": "exact model construction; physical generator selection and predictive advantage remain open",
+  "prime_dilation": {
+    "rows": [
+      {
+        "expansion_factor": 2,
+        "cycle_action": 0.6931471805599453,
+        "positive_lyapunov_per_step": 0.6931471805599453,
+        "compressed_mode_cutoff": 4096,
+        "first_zero_rank_step": 13
+      },
+      {
+        "expansion_factor": 3,
+        "cycle_action": 1.0986122886681098,
+        "positive_lyapunov_per_step": 1.0986122886681098,
+        "compressed_mode_cutoff": 4096,
+        "first_zero_rank_step": 8
+      },
+      {
+        "expansion_factor": 4,
+        "cycle_action": 1.3862943611198906,
+        "positive_lyapunov_per_step": 1.3862943611198906,
+        "compressed_mode_cutoff": 4096,
+        "first_zero_rank_step": 7
+      },
+      {
+        "expansion_factor": 5,
+        "cycle_action": 1.6094379124341003,
+        "positive_lyapunov_per_step": 1.6094379124341003,
+        "compressed_mode_cutoff": 4096,
+        "first_zero_rank_step": 6
+      },
+      {
+        "expansion_factor": 6,
+        "cycle_action": 1.791759469228055,
+        "positive_lyapunov_per_step": 1.791759469228055,
+        "compressed_mode_cutoff": 4096,
+        "first_zero_rank_step": 5
+      },
+      {
+        "expansion_factor": 11,
+        "cycle_action": 2.3978952727983707,
+        "positive_lyapunov_per_step": 2.3978952727983707,
+        "compressed_mode_cutoff": 4096,
+        "first_zero_rank_step": 4
+      }
+    ],
+    "max_fourier_pullback_error": 3.889173215545209e-14,
+    "max_action_commutator_error": 6.661338147750939e-16,
+    "max_modular_phase_error": 4.47545209131181e-16,
+    "composite_controls_included": [
+      4,
+      6
+    ],
+    "global_gibbs_state_requires_inverse_temperature_greater_than_one": true
+  },
+  "symbolic_cycles": {
+    "primitive_counts": [
+      {
+        "alphabet_size": 2,
+        "word_length": 1,
+        "primitive_symbolic_orbits": 2
+      },
+      {
+        "alphabet_size": 2,
+        "word_length": 2,
+        "primitive_symbolic_orbits": 1
+      },
+      {
+        "alphabet_size": 2,
+        "word_length": 3,
+        "primitive_symbolic_orbits": 2
+      },
+      {
+        "alphabet_size": 2,
+        "word_length": 4,
+        "primitive_symbolic_orbits": 3
+      },
+      {
+        "alphabet_size": 2,
+        "word_length": 5,
+        "primitive_symbolic_orbits": 6
+      },
+      {
+        "alphabet_size": 2,
+        "word_length": 6,
+        "primitive_symbolic_orbits": 9
+      },
+      {
+        "alphabet_size": 3,
+        "word_length": 1,
+        "primitive_symbolic_orbits": 3
+      },
+      {
+        "alphabet_size": 3,
+        "word_length": 2,
+        "primitive_symbolic_orbits": 3
+      },
+      {
+        "alphabet_size": 3,
+        "word_length": 3,
+        "primitive_symbolic_orbits": 8
+      },
+      {
+        "alphabet_size": 3,
+        "word_length": 4,
+        "primitive_symbolic_orbits": 18
+      },
+      {
+        "alphabet_size": 3,
+        "word_length": 5,
+        "primitive_symbolic_orbits": 48
+      },
+      {
+        "alphabet_size": 3,
+        "word_length": 6,
+        "primitive_symbolic_orbits": 116
+      }
+    ],
+    "weighted_cycle_products": [
+      {
+        "moment_order": 1,
+        "branch_moment": "1",
+        "coefficients": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      },
+      {
+        "moment_order": 2,
+        "branch_moment": "199/343",
+        "coefficients": [
+          "1",
+          "199/343",
+          "39601/117649",
+          "7880599/40353607",
+          "1568239201/13841287201",
+          "312079600999/4747561509943",
+          "62103840598801/1628413597910449"
+        ]
+      }
+    ],
+    "finite_cycle_check_counts_symbolic_words_not_endpoint_quotiented_interval_orbits": true,
+    "circle_fixed_point_correction": "Fix(x -> m*x mod 1, step k) = m**k - 1"
+  },
+  "reversible_action_flow": {
+    "branch_weights": [
+      "144/205",
+      "36/205",
+      "16/205",
+      "9/205"
+    ],
+    "forward_steps": 100,
+    "inverse_steps": 100,
+    "exact_state_recovered": true,
+    "initial_position_perturbation": "1/1000000000000000000000000000000",
+    "shared_itinerary_steps_checked_exactly": 84,
+    "first_distinct_branch_step": 85,
+    "trajectory_samples": [
+      {
+        "step": 10,
+        "position": 0.34219009714267296,
+        "separation": 1.3676459411537137e-28,
+        "accumulated_modular_action": 4.918261156743967,
+        "itineraries_still_match": true
+      },
+      {
+        "step": 20,
+        "position": 0.26271584694847666,
+        "separation": 2.992728672566764e-25,
+        "accumulated_modular_action": 12.609111035727711,
+        "itineraries_still_match": true
+      },
+      {
+        "step": 40,
+        "position": 0.04876568495338668,
+        "separation": 2.901881670063445e-17,
+        "accumulated_modular_action": 30.998965587247763,
+        "itineraries_still_match": true
+      },
+      {
+        "step": 60,
+        "position": 0.8227508733959498,
+        "separation": 1.3895271165431676e-10,
+        "accumulated_modular_action": 46.38066534521527,
+        "itineraries_still_match": true
+      },
+      {
+        "step": 80,
+        "position": 0.2304597525791798,
+        "separation": 0.0033683668908200833,
+        "accumulated_modular_action": 63.38422553561544,
+        "itineraries_still_match": true
+      },
+      {
+        "step": 100,
+        "position": 0.17639452042571663,
+        "separation": 0.4493489557763834,
+        "accumulated_modular_action": 74.84260828153595,
+        "itineraries_still_match": false
+      }
+    ],
+    "same_action_different_paths": {
+      "word_2_3_interval": [
+        "1440/1681",
+        "36576/42025"
+      ],
+      "word_3_2_interval": [
+        "39204/42025",
+        "7956/8405"
+      ],
+      "common_width": "576/42025"
+    }
+  },
+  "zeta_chaos": {
+    "entropy_rows": [
+      {
+        "inverse_temperature": 1.1,
+        "zeta": 10.584448464950801,
+        "positive_lyapunov_and_entropy_nats_per_step": 12.7445258217,
+        "bits_per_step": 18.386464201447932,
+        "independent_entropy_bounds": [
+          12.744506275962378,
+          12.744545367485973
+        ]
+      },
+      {
+        "inverse_temperature": 1.5,
+        "zeta": 2.6123753486854886,
+        "positive_lyapunov_and_entropy_nats_per_step": 3.218112936413187,
+        "bits_per_step": 4.6427555743839255,
+        "independent_entropy_bounds": [
+          3.2181117107846076,
+          3.2181141620845386
+        ]
+      },
+      {
+        "inverse_temperature": 2.0,
+        "zeta": 1.6449340668482264,
+        "positive_lyapunov_and_entropy_nats_per_step": 1.637622288659811,
+        "bits_per_step": 2.362589554698744,
+        "independent_entropy_bounds": [
+          1.6376222719834375,
+          1.63762230533713
+        ]
+      },
+      {
+        "inverse_temperature": 3.0,
+        "zeta": 1.2020569031595942,
+        "positive_lyapunov_and_entropy_nats_per_step": 0.6785022218663233,
+        "bits_per_step": 0.9788717907186878,
+        "independent_entropy_bounds": [
+          0.6785022218647009,
+          0.6785022218679456
+        ]
+      }
+    ],
+    "prime_entropy_cutoff": 100000,
+    "finite_prime_entropy_at_s_2": 1.6376015204653567,
+    "uncomputed_prime_entropy_tail": 2.0768194454401367e-05,
+    "purity_at_s_2": 0.4,
+    "negative_pressure_derivative_at_q_1": 1.637622288921947,
+    "moment_domain": "s*q > 1; the q=1/2 boundary at s=2 is divergence, not RH"
+  },
+  "state_dynamics_nonuniqueness": {
+    "cell_rows": [
+      {
+        "prime": 2,
+        "modular_gap": 0.6931471805599453,
+        "two_branch_baker_lyapunov": 0.6365141682948128,
+        "identity_map_lyapunov": 0.0,
+        "same_one_time_branch_probabilities": [
+          0.6666666666666666,
+          0.3333333333333333
+        ]
+      },
+      {
+        "prime": 3,
+        "modular_gap": 1.0986122886681098,
+        "two_branch_baker_lyapunov": 0.5623351446188083,
+        "identity_map_lyapunov": 0.0,
+        "same_one_time_branch_probabilities": [
+          0.75,
+          0.25
+        ]
+      },
+      {
+        "prime": 5,
+        "modular_gap": 1.6094379124341003,
+        "two_branch_baker_lyapunov": 0.45056120886630463,
+        "identity_map_lyapunov": 0.0,
+        "same_one_time_branch_probabilities": [
+          0.8333333333333334,
+          0.16666666666666666
+        ]
+      },
+      {
+        "prime": 11,
+        "modular_gap": 2.3978952727983707,
+        "two_branch_baker_lyapunov": 0.2868359830561607,
+        "identity_map_lyapunov": 0.0,
+        "same_one_time_branch_probabilities": [
+          0.9166666666666666,
+          0.08333333333333333
+        ]
+      },
+      {
+        "prime": 157,
+        "modular_gap": 5.056245805348308,
+        "two_branch_baker_lyapunov": 0.03835078340871136,
+        "identity_map_lyapunov": 0.0,
+        "same_one_time_branch_probabilities": [
+          0.9936708860759493,
+          0.006329113924050633
+        ]
+      }
+    ],
+    "independent_finite_phase_rotation_lyapunov": 0.0,
+    "entropy_rate_bound_applies_to_the_observed_symbol_process": true,
+    "no_universal_chaos_rate_follows_from_a_density_matrix_alone": true
+  },
+  "ordered_markov_flow": {
+    "stationary_weights": [
+      "3/4",
+      "1/4"
+    ],
+    "transition_matrix": [
+      [
+        "15/16",
+        "1/16"
+      ],
+      [
+        "3/16",
+        "13/16"
+      ]
+    ],
+    "refresh_fraction": "1/4",
+    "marginal_entropy": 0.5623351446188083,
+    "conditional_entropy_and_lyapunov": 0.2959881353240975,
+    "successive_label_mutual_information": 0.2663470092947109,
+    "per_step_forecast_log_loss_improvement_with_current_label": 0.2663470092947109,
+    "subleading_transition_eigenvalue": 0.75,
+    "blind_ensemble_forecasts": [
+      {
+        "horizon": 1,
+        "probability_of_rare_branch_given_initial_rare_branch": 0.8125
+      },
+      {
+        "horizon": 2,
+        "probability_of_rare_branch_given_initial_rare_branch": 0.671875
+      },
+      {
+        "horizon": 5,
+        "probability_of_rare_branch_given_initial_rare_branch": 0.427978515625
+      },
+      {
+        "horizon": 10,
+        "probability_of_rare_branch_given_initial_rare_branch": 0.2922351360321045
+      }
+    ],
+    "exact_forward_and_inverse_steps": 100,
+    "path_action_telescoping_verified": true,
+    "primitive_cycle_determinant_checked_through_degree": 6,
+    "forecast_scope": "known constructed Markov dynamics; initial label only; future path enumeration is validation, not prediction input"
+  },
+  "exact_jump_and_resolution": {
+    "expansion_factor": 3,
+    "initial_rational_state": "123456789/1000000007",
+    "direct_iteration_comparisons": 1000,
+    "jump_step": 1000000000000000000,
+    "jump_rational_state": "683207342/1000000007",
+    "jump_composition_verified": true,
+    "known_initial_base_three_digits": 5,
+    "unresolved_suffix_ensemble_size": 81,
+    "ensemble_covers_uniform_grid_after_steps": 5,
+    "limitation": "exact rational input and this special map only; finite rational orbits are eventually periodic"
+  }
+}

@@ -1,0 +1,142 @@
+'PrimeUniverse.Arithmetic.mobius_at_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.Arithmetic.mobius_at_prime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.Arithmetic.mobius_square_is_unit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.Arithmetic.mobius_divisor_cancellation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.Arithmetic.one_is_unique_nonzero_divisor_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.Arithmetic.finite_euler_product_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.Arithmetic.euler_configuration_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.BellAudit.update_joint_probabilities_normalize' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PrimeUniverse.BellAudit.update_joint_probabilities_nonnegative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PrimeUniverse.BellAudit.complementary_update_correlation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.BellAudit.trigonometric_update_gives_quantum_correlation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PrimeUniverse.BellAudit.missing_conditional_is_necessary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.BellAudit.one_conditional_does_not_determine_correlation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PrimeUniverse.BellAudit.unbiased_alice_gives_unbiased_bob' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.BellAudit.bob_marginal_independent_iff_unbiased' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PrimeUniverse.BellAudit.deterministic_local_chsh_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.BellAudit.finite_local_chsh_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.BellAudit.conditional_sampler_reaches_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.ClockScale.gibbs_partition_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.ClockScale.gibbs_probabilities_normalized' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.ClockScale.dimensionless_energy_invariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.ClockScale.gibbs_distribution_invariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.ClockScale.energy_clock_product_invariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.ClockScale.dimensionless_gap_cannot_determine_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PrimeUniverse.CycleProduct.root_product_squared' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.CycleProduct.spectral_product_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.CycleProduct.logarithmic_cycle_action' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.CycleProduct.reciprocal_square_root_weight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.CycleProduct.rotation_chord_squared' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.CycleProduct.cycle_sine_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.CycleProduct.composite_cycle_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.CycleLaplacian.fourier_translation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.CycleLaplacian.fourier_diagonalizes_cycle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.CycleLaplacian.graph_laplacian_local_rule' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.CycleLaplacian.graph_laplacian_is_cycle_operator' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PrimeUniverse.CycleLaplacian.negative_character_is_conjugate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PrimeUniverse.CycleLaplacian.eigenvalue_is_chord_squared' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.CycleLaplacian.only_zero_frequency_has_zero_eigenvalue' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PrimeUniverse.CycleDeterminant.character_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.CycleDeterminant.fourier_constant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.CycleDeterminant.fourier_average_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.CycleDeterminant.average_projection_is_idempotent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PrimeUniverse.CycleDeterminant.zero_modes_are_exactly_constants' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PrimeUniverse.CycleDeterminant.fourier_regularized_operator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.CycleDeterminant.regularized_matrix_entries' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.CycleDeterminant.fourier_conjugation_is_diagonal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PrimeUniverse.CycleDeterminant.regularized_determinant_is_eigenvalue_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PrimeUniverse.CycleDeterminant.character_at_successor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.CycleDeterminant.regularized_eigenvalue_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PrimeUniverse.CycleDeterminant.concrete_cycle_determinant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.CycleDeterminant.concrete_cycle_logarithmic_action' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PrimeUniverse.CycleDeterminant.composite_four_matrix_determinant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PrimeUniverse.CycleDeterminant.regularized_matrix_is_graph_laplacian_plus_mean' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PrimeUniverse.CycleDeterminant.simple_cycle_matrix_determinant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PrimeUniverse.HorizonDuality.dual_radius_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.HorizonDuality.radius_duality_is_involution' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.HorizonDuality.duality_exchanges_energy_branches' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PrimeUniverse.HorizonDuality.positive_fixed_point_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.HorizonDuality.unique_positive_fixed_point' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.HorizonDuality.duality_reverses_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.HorizonDuality.horizon_information_equals_crossing_action' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PrimeUniverse.ModularCell.probabilities_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.ModularCell.probabilities_sum_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.ModularCell.modular_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.ModularCell.entropy_is_probability_entropy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.ModularCell.predictability_is_population_difference' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PrimeUniverse.ModularCell.predictability_is_absolute_population_difference' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PrimeUniverse.ModularCell.wave_structure_complementarity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.ModularCell.visibility_squared_is_four_variance' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PrimeUniverse.ModularCell.predictability_strictly_increases' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.ModularCell.variance_strictly_decreases' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.ModularCell.visibility_strictly_decreases' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.ModularCell.entropy_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.ModularCell.entropy_derivative_negative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.ModularCell.composite_four_also_satisfies_complementarity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PrimeUniverse.PairedClocks.difference_clock_annihilates_paired_state' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PrimeUniverse.PairedClocks.sum_clock_doubles_paired_energies' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PrimeUniverse.PairedClocks.sum_clock_is_not_frozen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.PairedClocks.unequal_occupied_energies_are_not_stationary' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PrimeUniverse.PairedClocks.reduced_state_is_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.PairedClocks.paired_state_normalized' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.PairedClocks.local_signs_do_not_change_reduced_state' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PrimeUniverse.Bridge.cycle_action_matches_modular_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.Bridge.concrete_cycle_action_matches_modular_gap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

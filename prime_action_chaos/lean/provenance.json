@@ -1,0 +1,85 @@
+{
+  "description": "Selected existing proofs for the prime action and chaos research package; copied files are unchanged.",
+  "copied_files": {
+    "PrimeUniverse/Arithmetic.lean": {
+      "origin_repository_path": "ideas/prime-universe-cycle-audit/PrimeUniverse/Arithmetic.lean",
+      "source_sha256": "4f12221e1b86f956957d72747f39de628352bacafdfb81e3c3e648b001788697",
+      "copied_sha256": "4f12221e1b86f956957d72747f39de628352bacafdfb81e3c3e648b001788697",
+      "modification": "none"
+    },
+    "PrimeUniverse/CycleProduct.lean": {
+      "origin_repository_path": "ideas/prime-universe-cycle-audit/PrimeUniverse/CycleProduct.lean",
+      "source_sha256": "3cde04ec62aa2730c0aa607c3c594943c54c14c466f01b3c6e60010f2990446a",
+      "copied_sha256": "3cde04ec62aa2730c0aa607c3c594943c54c14c466f01b3c6e60010f2990446a",
+      "modification": "none"
+    },
+    "PrimeUniverse/CycleLaplacian.lean": {
+      "origin_repository_path": "ideas/prime-universe-cycle-audit/PrimeUniverse/CycleLaplacian.lean",
+      "source_sha256": "26b0e28e72184451a40a13e76c431c6dfe50e87029c81fff6f924c67fc1d1c94",
+      "copied_sha256": "26b0e28e72184451a40a13e76c431c6dfe50e87029c81fff6f924c67fc1d1c94",
+      "modification": "none"
+    },
+    "PrimeUniverse/CycleDeterminant.lean": {
+      "origin_repository_path": "ideas/prime-universe-cycle-audit/PrimeUniverse/CycleDeterminant.lean",
+      "source_sha256": "6befc615fc0b1774fb5df96f4c946047d4cafaa95f69ecbc3570ed567f883dec",
+      "copied_sha256": "6befc615fc0b1774fb5df96f4c946047d4cafaa95f69ecbc3570ed567f883dec",
+      "modification": "none"
+    },
+    "PrimeUniverse/ClockScale.lean": {
+      "origin_repository_path": "ideas/prime-universe-cycle-audit/PrimeUniverse/ClockScale.lean",
+      "source_sha256": "39e11fd210bed39ff21221a3c4a0cff51dcc86e4101b42fd05439893aa712363",
+      "copied_sha256": "39e11fd210bed39ff21221a3c4a0cff51dcc86e4101b42fd05439893aa712363",
+      "modification": "none"
+    },
+    "PrimeUniverse/ModularCell.lean": {
+      "origin_repository_path": "ideas/prime-universe-spectrum-audit/PrimeUniverse/ModularCell.lean",
+      "source_sha256": "741216019233d8cf4adaba329cb6d1bc3194dcf0b520b658d11a685aea34d95f",
+      "copied_sha256": "741216019233d8cf4adaba329cb6d1bc3194dcf0b520b658d11a685aea34d95f",
+      "modification": "none"
+    },
+    "PrimeUniverse/ThermalZeta.lean": {
+      "origin_repository_path": "ideas/prime-universe-spectrum-audit/PrimeUniverse/ThermalZeta.lean",
+      "source_sha256": "0a89bbc8b15ef60916ed63cb7be48578ea4fb69e19995b15786be2300467631a",
+      "copied_sha256": "0a89bbc8b15ef60916ed63cb7be48578ea4fb69e19995b15786be2300467631a",
+      "modification": "none"
+    },
+    "check.py": {
+      "origin_repository_path": "ideas/prime-universe-spectrum-audit/check.py",
+      "source_sha256": "24c9901b3582e280ba2e9a3b1ebf982d040e69e6787ba1f9a4f135b9ee10c3ee",
+      "copied_sha256": "24c9901b3582e280ba2e9a3b1ebf982d040e69e6787ba1f9a4f135b9ee10c3ee",
+      "modification": "none"
+    },
+    "fetch_cache.py": {
+      "origin_repository_path": "ideas/prime-universe-cycle-audit/fetch_cache.py",
+      "source_sha256": "caffd7da23284677a7c4a497305e07617358e68b71210e4a593c7ee1f33d4329",
+      "copied_sha256": "caffd7da23284677a7c4a497305e07617358e68b71210e4a593c7ee1f33d4329",
+      "modification": "none"
+    },
+    "lean-toolchain": {
+      "origin_repository_path": "ideas/prime-universe-cycle-audit/lean-toolchain",
+      "source_sha256": "8733782dc070a99b312039cda424f601b80f3be6f6f512627da5ba25adc27632",
+      "copied_sha256": "8733782dc070a99b312039cda424f601b80f3be6f6f512627da5ba25adc27632",
+      "modification": "none"
+    },
+    "LICENSE": {
+      "origin_repository_path": "ideas/prime-universe-cycle-audit/LICENSE",
+      "source_sha256": "153f7caf00796585022b1984edc8c80e5d885c58a68a832ef7bc198696e56380",
+      "copied_sha256": "153f7caf00796585022b1984edc8c80e5d885c58a68a832ef7bc198696e56380",
+      "modification": "none"
+    }
+  },
+  "adapted_files": {
+    "lake-manifest.json": {
+      "origin_repository_path": "ideas/prime-universe-cycle-audit/lake-manifest.json",
+      "modification": "Only the root package name changes; dependency revisions are unchanged."
+    },
+    "PrimeUniverse.lean": {
+      "origin_repository_path": "ideas/prime-universe-cycle-audit/PrimeUniverse.lean",
+      "modification": "Select applicable imports and retain both bridge proofs, using groundWeight/excitedWeight names from the included ModularCell version."
+    },
+    "lakefile.toml": {
+      "origin_repository_path": "ideas/prime-universe-spectrum-audit/lakefile.toml",
+      "modification": "Root package name and version for this subproject; same mathlib revision and warnings-as-errors."
+    }
+  }
+}

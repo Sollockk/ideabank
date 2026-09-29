@@ -1,0 +1,390 @@
+{
+  "started_utc": "2026-09-29T05:56:38.298197+00:00",
+  "finished_utc": "2026-09-29T06:00:20.974013+00:00",
+  "compilation_passed": true,
+  "warnings_as_errors": true,
+  "compiler_version": "Lean (version 4.34.0, x86_64-unknown-linux-gnu, commit 293d5d0c0c3f3dded4688b3ccd6a33939ac5102b, Release)",
+  "mathlib_revision": "5ed2965256430c3649e86755f9576b54eca72435",
+  "dependency_manifest_sha256": "8f67b2cf24143ac091cdb425e886c2164b2fc2d6fbccd6db9454b697f9541a67",
+  "dependency_revisions": {
+    "plausible": "118aa17ee84656b8bd727fef7c458ee8c833385c",
+    "LeanSearchClient": "ddf04cf3949fa556442341e87d47f9f6e6074707",
+    "importGraph": "e928b72544873815af278d38681b31c0293588e3",
+    "proofwidgets": "106ff4fafc74ef4ac99d81dbf3ab399118f497a5",
+    "aesop": "355695d523e41d0554926416cba2a2b3544fbbc9",
+    "Qq": "6a489d9af5d0c47e5b259e2e8bcdfc1811b5a259",
+    "batteries": "f2effa3d803fda822b1f97b806c47cf2adfbcbc2",
+    "Cli": "e92c9f15fdfacc8536f31cfb3b7ad26c3c8cd204"
+  },
+  "theorem_count": 68,
+  "source_sha256": {
+    "PrimeUniverse/Arithmetic.lean": "4f12221e1b86f956957d72747f39de628352bacafdfb81e3c3e648b001788697",
+    "PrimeUniverse/ClockScale.lean": "39e11fd210bed39ff21221a3c4a0cff51dcc86e4101b42fd05439893aa712363",
+    "PrimeUniverse/CycleProduct.lean": "3cde04ec62aa2730c0aa607c3c594943c54c14c466f01b3c6e60010f2990446a",
+    "PrimeUniverse/CycleLaplacian.lean": "26b0e28e72184451a40a13e76c431c6dfe50e87029c81fff6f924c67fc1d1c94",
+    "PrimeUniverse/CycleDeterminant.lean": "6befc615fc0b1774fb5df96f4c946047d4cafaa95f69ecbc3570ed567f883dec",
+    "PrimeUniverse/ModularCell.lean": "741216019233d8cf4adaba329cb6d1bc3194dcf0b520b658d11a685aea34d95f",
+    "PrimeUniverse/ThermalZeta.lean": "0a89bbc8b15ef60916ed63cb7be48578ea4fb69e19995b15786be2300467631a",
+    "PrimeUniverse.lean": "4d693a91ac94f1ed6e19ee253dde7a40207e0a5b89114db5034e07c48603925d"
+  },
+  "project_configuration_sha256": {
+    "lean-toolchain": "8733782dc070a99b312039cda424f601b80f3be6f6f512627da5ba25adc27632",
+    "lakefile.toml": "86d0625cd66e3fb83583bf47d95f8713bb5f265b274f8b1433f8796de9b198f5",
+    "lake-manifest.json": "0b909febd6df0d6abebd447aac435242832199f7687fc5624c586c3d2dfa5e9a"
+  },
+  "provenance_sha256": "44deee773b6215b47ef138a188f857d9aa33a4e79f4f0ebbcb47be87343d1c9b",
+  "checker_sha256": "24c9901b3582e280ba2e9a3b1ebf982d040e69e6787ba1f9a4f135b9ee10c3ee",
+  "declaration_axioms": {
+    "PrimeUniverse.Arithmetic.mobius_at_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.Arithmetic.mobius_at_prime": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.Arithmetic.mobius_square_is_unit": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.Arithmetic.mobius_divisor_cancellation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.Arithmetic.one_is_unique_nonzero_divisor_sum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.Arithmetic.finite_euler_product_expansion": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.Arithmetic.euler_configuration_count": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ClockScale.gibbs_partition_positive": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ClockScale.gibbs_probabilities_normalized": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ClockScale.dimensionless_energy_invariant": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ClockScale.gibbs_distribution_invariant": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ClockScale.energy_clock_product_invariant": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ClockScale.dimensionless_gap_cannot_determine_energy": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.CycleProduct.root_product_squared": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.CycleProduct.spectral_product_positive": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.CycleProduct.logarithmic_cycle_action": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.CycleProduct.reciprocal_square_root_weight": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.CycleProduct.rotation_chord_squared": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.CycleProduct.cycle_sine_product": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.CycleProduct.composite_cycle_four": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.CycleLaplacian.fourier_translation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.CycleLaplacian.fourier_diagonalizes_cycle": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.CycleLaplacian.graph_laplacian_local_rule": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.CycleLaplacian.graph_laplacian_is_cycle_operator": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.CycleLaplacian.negative_character_is_conjugate": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.CycleLaplacian.eigenvalue_is_chord_squared": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.CycleLaplacian.only_zero_frequency_has_zero_eigenvalue": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.CycleDeterminant.character_sum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.CycleDeterminant.fourier_constant": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.CycleDeterminant.fourier_average_projection": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.CycleDeterminant.average_projection_is_idempotent": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.CycleDeterminant.zero_modes_are_exactly_constants": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.CycleDeterminant.fourier_regularized_operator": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.CycleDeterminant.regularized_matrix_entries": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.CycleDeterminant.fourier_conjugation_is_diagonal": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.CycleDeterminant.regularized_determinant_is_eigenvalue_product": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.CycleDeterminant.character_at_successor": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.CycleDeterminant.regularized_eigenvalue_product": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.CycleDeterminant.concrete_cycle_determinant": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.CycleDeterminant.concrete_cycle_logarithmic_action": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.CycleDeterminant.composite_four_matrix_determinant": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.CycleDeterminant.regularized_matrix_is_graph_laplacian_plus_mean": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.CycleDeterminant.simple_cycle_matrix_determinant": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ModularCell.weights_normalized": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ModularCell.modular_gap": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ModularCell.wave_structure_complementarity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ModularCell.visibility_squared_is_four_times_weight_product": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ModularCell.predictability_strictly_increases": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ModularCell.entropy_is_binary_entropy": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ModularCell.entropy_derivative": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ModularCell.entropy_strictly_decreases": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ModularCell.reduced_state": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ModularCell.modular_state_normalized": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ModularCell.paired_state_entangled": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ModularCell.modular_state_entangled": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ModularCell.difference_time_is_null": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ModularCell.sum_time_is_nonzero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ModularCell.sum_time_not_just_global_phase": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ThermalZeta.arithmetic_state_normalizable_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ThermalZeta.critical_line_state_not_normalizable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ThermalZeta.finite_rescaling_cannot_normalize_critical_state": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ThermalZeta.phases_cannot_normalize_critical_state": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ThermalZeta.arithmetic_state_at_two_is_normalizable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ThermalZeta.orbit_weight_is_prime_power": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ThermalZeta.determinant_length_euler_product": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ThermalZeta.finite_euler_product_nonzero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.Bridge.cycle_action_matches_modular_gap": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.Bridge.concrete_cycle_action_matches_modular_gap": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "allowed_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "logs": {
+    "verification.compile.log": "3f13c6590078bc7919750baee5c18694a80dcbb6a54bcd2278ce19dfd04c4c16",
+    "verification.axioms.log": "1bb85521383364acf8f5c938200c72ea27cda8062ca9fe57232252595e08c9ea"
+  },
+  "scope": "Manually translated mathematical claims; physical identifications are not certified.",
+  "dependencies": "Pinned mathlib with compiled library objects; not rebuilt entirely from source."
+}

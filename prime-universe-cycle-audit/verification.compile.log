@@ -1,0 +1,10 @@
+CHECK PrimeUniverse/Arithmetic.lean
+CHECK PrimeUniverse/BellAudit.lean
+CHECK PrimeUniverse/ClockScale.lean
+CHECK PrimeUniverse/CycleProduct.lean
+CHECK PrimeUniverse/CycleLaplacian.lean
+CHECK PrimeUniverse/CycleDeterminant.lean
+CHECK PrimeUniverse/HorizonDuality.lean
+CHECK PrimeUniverse/ModularCell.lean
+CHECK PrimeUniverse/PairedClocks.lean
+CHECK PrimeUniverse.lean
