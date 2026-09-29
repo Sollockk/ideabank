@@ -1,0 +1,494 @@
+{
+  "started_utc": "2026-09-29T05:46:22.268434+00:00",
+  "finished_utc": "2026-09-29T05:51:57.901275+00:00",
+  "compilation_passed": true,
+  "warnings_as_errors": true,
+  "compiler_version": "Lean (version 4.34.0, x86_64-unknown-linux-gnu, commit 293d5d0c0c3f3dded4688b3ccd6a33939ac5102b, Release)",
+  "mathlib_revision": "5ed2965256430c3649e86755f9576b54eca72435",
+  "dependency_manifest_sha256": "1cc565497ce0be59a5bc9805a669a9a5c37c85a177c4cd85195da6d45158e39b",
+  "dependency_revisions": {
+    "plausible": "118aa17ee84656b8bd727fef7c458ee8c833385c",
+    "LeanSearchClient": "ddf04cf3949fa556442341e87d47f9f6e6074707",
+    "importGraph": "e928b72544873815af278d38681b31c0293588e3",
+    "proofwidgets": "106ff4fafc74ef4ac99d81dbf3ab399118f497a5",
+    "aesop": "355695d523e41d0554926416cba2a2b3544fbbc9",
+    "Qq": "6a489d9af5d0c47e5b259e2e8bcdfc1811b5a259",
+    "batteries": "f2effa3d803fda822b1f97b806c47cf2adfbcbc2",
+    "Cli": "e92c9f15fdfacc8536f31cfb3b7ad26c3c8cd204",
+    "mathlib": "5ed2965256430c3649e86755f9576b54eca72435"
+  },
+  "theorem_count": 88,
+  "source_sha256": {
+    "PrimeUniverse/Bell.lean": "d4ba9ebcae0a518562fb65fe085e97fc045af529e33fc976fd3d33f119379ad6",
+    "PrimeUniverse/ConformalPulse.lean": "f0a38a50e77e88248a210d95074347bfbba0e206640138f50fa0a398ac52db72",
+    "PrimeUniverse/CycleSpectrum.lean": "17fa2c103305dd1966d1b2f0f6bceadec5d33d30c5b205fe00998baa322bd6b5",
+    "PrimeUniverse/DeterminantResponse.lean": "7805d1a1c438b66841511d260e3bec43e06a253903ab19e652254dec4a30125c",
+    "PrimeUniverse/LogBounds.lean": "b56d3cf1c380f8d1f26aa92a0197282a648ecb3b490ee63420e8e1c0c99a9cb0",
+    "PrimeUniverse/HeatCapacity.lean": "e9a627e8c82ff832d2406f2a99561e2df92c30fc6a458b33a03c089d1c0f8d2f",
+    "PrimeUniverse/ModularCell.lean": "741216019233d8cf4adaba329cb6d1bc3194dcf0b520b658d11a685aea34d95f",
+    "PrimeUniverse/PrimeCutoff.lean": "28a994b31ec51382985fa9592ba79a23a5afd32360a10ad1141a1d04717b7306",
+    "PrimeUniverse/ScaleAndHorizon.lean": "866b54e918bf699a6d47bd8ab169587ba33a9671cd46e03038514c075afe613e",
+    "PrimeUniverse/ThermalZeta.lean": "0a89bbc8b15ef60916ed63cb7be48578ea4fb69e19995b15786be2300467631a",
+    "PrimeUniverse.lean": "a84fa062c0acc12a52e33ccd3d2c662ff5d5d53797fab1c8daffc805f3de1291"
+  },
+  "project_configuration_sha256": {
+    "lean-toolchain": "8733782dc070a99b312039cda424f601b80f3be6f6f512627da5ba25adc27632",
+    "lakefile.toml": "962e22e70a39cc180ee5c099023bc56ea33a67b0727128da17017d06b5de017f",
+    "lake-manifest.json": "1cc565497ce0be59a5bc9805a669a9a5c37c85a177c4cd85195da6d45158e39b"
+  },
+  "provenance_sha256": "f4e9899ed39d712532e635fd565cae096228c617bf5f4fed298c8bd4ac5e326a",
+  "checker_sha256": "24c9901b3582e280ba2e9a3b1ebf982d040e69e6787ba1f9a4f135b9ee10c3ee",
+  "declaration_axioms": {
+    "PrimeUniverse.Bell.conditional_correlation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.Bell.quantum_correlation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.Bell.marginal_setting_dependence": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.Bell.no_signalling_iff_balanced": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.Bell.local_chsh_pointwise": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.Bell.local_hidden_variable_chsh_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.Bell.conditional_pr_box": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.Bell.quantum_chsh_value": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.Bell.quantum_value_exceeds_local_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ConformalPulse.completed_source_moment": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ConformalPulse.nontrivial_pulse_cannot_reset": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ConformalPulse.local_source_negative": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ConformalPulse.example_negative_local_positive_total": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.CycleSpectrum.cycle_spectral_product": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.CycleSpectrum.determinant_action": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.CycleSpectrum.composite_cycle_has_same_law": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.CycleSpectrum.fourier_mode_periodic": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.CycleSpectrum.fourier_mode_laplacian": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.CycleSpectrum.mode_eigenvalue_is_norm_square": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.CycleSpectrum.finite_modes_linearly_independent": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.CycleSpectrum.finite_modes_span": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.CycleSpectrum.finite_mode_laplacian": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.CycleSpectrum.only_constant_mode_has_zero_eigenvalue": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.CycleSpectrum.finite_mode_real_eigenvalue": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.DeterminantResponse.scaled_spectral_product": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.DeterminantResponse.scaled_action": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.DeterminantResponse.action_derivative": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.DeterminantResponse.logarithmic_scale_response": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.DeterminantResponse.reference_scale_shift": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.DeterminantResponse.determinant_normalization_has_zero_response": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.DeterminantResponse.family_action_derivative": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.DeterminantResponse.horizon_prime_count": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.DeterminantResponse.horizon_nonzero_mode_count": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.DeterminantResponse.seam_prime_count": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.DeterminantResponse.seam_nonzero_mode_count": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.DeterminantResponse.seam_logarithmic_response": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.LogBounds.log_two_bounds": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.LogBounds.log_three_bounds": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.LogBounds.log_eleven_eighths_bounds": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.LogBounds.log_eleven_bounds": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.LogBounds.log_twelve_bounds": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.HeatCapacity.canonical_energy_derivative": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.HeatCapacity.response_is_canonical_thermal_derivative": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.HeatCapacity.response_derivative": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.HeatCapacity.derivative_positive_through_eleven": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.HeatCapacity.derivative_negative_from_twelve": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.HeatCapacity.response_increases_through_eleven": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.HeatCapacity.response_decreases_from_twelve": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.HeatCapacity.eleven_beats_twelve": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.HeatCapacity.eleven_unique_integer_maximum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.HeatCapacity.eleven_unique_prime_maximum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.HeatCapacity.eleven_still_on_increasing_continuous_branch": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ModularCell.weights_normalized": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ModularCell.modular_gap": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ModularCell.wave_structure_complementarity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ModularCell.visibility_squared_is_four_times_weight_product": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ModularCell.predictability_strictly_increases": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ModularCell.entropy_is_binary_entropy": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ModularCell.entropy_derivative": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ModularCell.entropy_strictly_decreases": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ModularCell.reduced_state": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ModularCell.modular_state_normalized": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ModularCell.paired_state_entangled": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ModularCell.modular_state_entangled": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ModularCell.difference_time_is_null": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ModularCell.sum_time_is_nonzero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ModularCell.sum_time_not_just_global_phase": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.PrimeCutoff.geometric_cutoff_bounds": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.PrimeCutoff.horizon_membership_is_geometric_cutoff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.PrimeCutoff.seam_membership_is_geometric_cutoff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ScaleAndHorizon.gibbs_scale_invariant": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ScaleAndHorizon.no_state_only_temperature": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ScaleAndHorizon.nonzero_gap_scale_degeneracy": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ScaleAndHorizon.positive_radius_involution": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ScaleAndHorizon.reciprocal_radius_fixed_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ScaleAndHorizon.radiation_horizon_exchange": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ScaleAndHorizon.inherited_action_matches_seed": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ScaleAndHorizon.horizon_action_entropy": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ThermalZeta.arithmetic_state_normalizable_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ThermalZeta.critical_line_state_not_normalizable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ThermalZeta.finite_rescaling_cannot_normalize_critical_state": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ThermalZeta.phases_cannot_normalize_critical_state": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ThermalZeta.arithmetic_state_at_two_is_normalizable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ThermalZeta.orbit_weight_is_prime_power": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ThermalZeta.determinant_length_euler_product": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.ThermalZeta.finite_euler_product_nonzero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.Connections.cycle_action_equals_modular_gap": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PrimeUniverse.Connections.cycle_action_gives_arithmetic_weight": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "allowed_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "logs": {
+    "verification.compile.log": "903479eb35680018e88c6ff42f171cfa49b2d7041f0e36572f6b50d8d8539ace",
+    "verification.axioms.log": "7a73472b940321d9a006c8b060c78410514ed48aad299f87119cdc1e93b92202"
+  },
+  "scope": "Manually translated mathematical claims; physical identifications are not certified.",
+  "dependencies": "Pinned mathlib with compiled library objects; not rebuilt entirely from source."
+}

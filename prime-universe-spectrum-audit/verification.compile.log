@@ -1,0 +1,11 @@
+CHECK PrimeUniverse/Bell.lean
+CHECK PrimeUniverse/ConformalPulse.lean
+CHECK PrimeUniverse/CycleSpectrum.lean
+CHECK PrimeUniverse/DeterminantResponse.lean
+CHECK PrimeUniverse/LogBounds.lean
+CHECK PrimeUniverse/HeatCapacity.lean
+CHECK PrimeUniverse/ModularCell.lean
+CHECK PrimeUniverse/PrimeCutoff.lean
+CHECK PrimeUniverse/ScaleAndHorizon.lean
+CHECK PrimeUniverse/ThermalZeta.lean
+CHECK PrimeUniverse.lean

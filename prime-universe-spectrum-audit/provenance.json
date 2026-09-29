@@ -1,0 +1,14 @@
+{
+  "source_title": "The Prime Universe: A Theory of Everything from μ(1) = +1",
+  "source_filename": "PRIME_UNIVERSE_THEORY.md",
+  "source_sha256_original_audit": "f15b2b3363e318fa053b036b45dfa93a68f4c93f7bbe9f843c4c5f593bc4ff17",
+  "source_sha256_continuation": "273b2cf0bd148b0cb84398e738501a439f178eb147f644b40cbb5f09062bb43a",
+  "source_file_required_to_build": false,
+  "original_audit_theorem_count": 57,
+  "continuation_chapters": {
+    "149": "Temperature Selects Prime 11",
+    "146": "The Remaining Curvature No-Go",
+    "144": "The geometric cutoff and reserved prime set"
+  },
+  "translation": "Manual mathematical translation; physical interpretations are not certified."
+}

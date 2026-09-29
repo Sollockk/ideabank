@@ -1,0 +1,124 @@
+'PrimeUniverse.Bell.conditional_correlation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.Bell.quantum_correlation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.Bell.marginal_setting_dependence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.Bell.no_signalling_iff_balanced' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.Bell.local_chsh_pointwise' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.Bell.local_hidden_variable_chsh_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.Bell.conditional_pr_box' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.Bell.quantum_chsh_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.Bell.quantum_value_exceeds_local_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.ConformalPulse.completed_source_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.ConformalPulse.nontrivial_pulse_cannot_reset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.ConformalPulse.local_source_negative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.ConformalPulse.example_negative_local_positive_total' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PrimeUniverse.CycleSpectrum.cycle_spectral_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.CycleSpectrum.determinant_action' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.CycleSpectrum.composite_cycle_has_same_law' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.CycleSpectrum.fourier_mode_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.CycleSpectrum.fourier_mode_laplacian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.CycleSpectrum.mode_eigenvalue_is_norm_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.CycleSpectrum.finite_modes_linearly_independent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PrimeUniverse.CycleSpectrum.finite_modes_span' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.CycleSpectrum.finite_mode_laplacian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.CycleSpectrum.only_constant_mode_has_zero_eigenvalue' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PrimeUniverse.CycleSpectrum.finite_mode_real_eigenvalue' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.DeterminantResponse.scaled_spectral_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.DeterminantResponse.scaled_action' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.DeterminantResponse.action_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.DeterminantResponse.logarithmic_scale_response' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PrimeUniverse.DeterminantResponse.reference_scale_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.DeterminantResponse.determinant_normalization_has_zero_response' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PrimeUniverse.DeterminantResponse.family_action_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.DeterminantResponse.horizon_prime_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.DeterminantResponse.horizon_nonzero_mode_count' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PrimeUniverse.DeterminantResponse.seam_prime_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.DeterminantResponse.seam_nonzero_mode_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.DeterminantResponse.seam_logarithmic_response' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.LogBounds.log_two_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.LogBounds.log_three_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.LogBounds.log_eleven_eighths_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.LogBounds.log_eleven_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.LogBounds.log_twelve_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.HeatCapacity.canonical_energy_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.HeatCapacity.response_is_canonical_thermal_derivative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PrimeUniverse.HeatCapacity.response_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.HeatCapacity.derivative_positive_through_eleven' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PrimeUniverse.HeatCapacity.derivative_negative_from_twelve' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.HeatCapacity.response_increases_through_eleven' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PrimeUniverse.HeatCapacity.response_decreases_from_twelve' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.HeatCapacity.eleven_beats_twelve' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.HeatCapacity.eleven_unique_integer_maximum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.HeatCapacity.eleven_unique_prime_maximum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.HeatCapacity.eleven_still_on_increasing_continuous_branch' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PrimeUniverse.ModularCell.weights_normalized' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.ModularCell.modular_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.ModularCell.wave_structure_complementarity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.ModularCell.visibility_squared_is_four_times_weight_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PrimeUniverse.ModularCell.predictability_strictly_increases' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.ModularCell.entropy_is_binary_entropy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.ModularCell.entropy_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.ModularCell.entropy_strictly_decreases' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.ModularCell.reduced_state' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.ModularCell.modular_state_normalized' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.ModularCell.paired_state_entangled' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.ModularCell.modular_state_entangled' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.ModularCell.difference_time_is_null' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.ModularCell.sum_time_is_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.ModularCell.sum_time_not_just_global_phase' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.PrimeCutoff.geometric_cutoff_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.PrimeCutoff.horizon_membership_is_geometric_cutoff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PrimeUniverse.PrimeCutoff.seam_membership_is_geometric_cutoff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PrimeUniverse.ScaleAndHorizon.gibbs_scale_invariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.ScaleAndHorizon.no_state_only_temperature' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.ScaleAndHorizon.nonzero_gap_scale_degeneracy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.ScaleAndHorizon.positive_radius_involution' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.ScaleAndHorizon.reciprocal_radius_fixed_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.ScaleAndHorizon.radiation_horizon_exchange' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.ScaleAndHorizon.inherited_action_matches_seed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.ScaleAndHorizon.horizon_action_entropy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.ThermalZeta.arithmetic_state_normalizable_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.ThermalZeta.critical_line_state_not_normalizable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PrimeUniverse.ThermalZeta.finite_rescaling_cannot_normalize_critical_state' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PrimeUniverse.ThermalZeta.phases_cannot_normalize_critical_state' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PrimeUniverse.ThermalZeta.arithmetic_state_at_two_is_normalizable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'PrimeUniverse.ThermalZeta.orbit_weight_is_prime_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.ThermalZeta.determinant_length_euler_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.ThermalZeta.finite_euler_product_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.Connections.cycle_action_equals_modular_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PrimeUniverse.Connections.cycle_action_gives_arithmetic_weight' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

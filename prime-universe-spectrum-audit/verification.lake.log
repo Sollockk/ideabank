@@ -1,0 +1,17 @@
+Command: lake build
+Location: a fresh temporary copy of the publication folder
+Dependencies: the same pinned mathlib cache, linked into the temporary copy
+Exit status: 0
+
+✔ [3285/3296] Built PrimeUniverse.Bell (21s)
+✔ [3286/3296] Built PrimeUniverse.ScaleAndHorizon (21s)
+✔ [3287/3296] Built PrimeUniverse.CycleSpectrum (22s)
+✔ [3288/3296] Built PrimeUniverse.ModularCell (22s)
+✔ [3289/3296] Built PrimeUniverse.LogBounds (22s)
+✔ [3290/3296] Built PrimeUniverse.ConformalPulse (22s)
+✔ [3291/3296] Built PrimeUniverse.ThermalZeta (23s)
+✔ [3292/3296] Built PrimeUniverse.HeatCapacity (9.4s)
+✔ [3293/3296] Built PrimeUniverse.DeterminantResponse (13s)
+✔ [3294/3296] Built PrimeUniverse.PrimeCutoff (7.8s)
+✔ [3295/3296] Built PrimeUniverse (8.0s)
+Build completed successfully (3296 jobs).
